@@ -1,0 +1,161 @@
+/* Global Styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #ffffff;
+  color: #333;
+}
+
+.container {
+  max-width: 100%;
+  margin: 10px;
+  padding: 0;
+}
+
+/* Header Styles */
+header {
+  background-color: #042f69;
+  color: #fff;
+  padding: 20px;
+  height: 10vh; /* Set the height to 100vh for full-screen */
+  display: flex;
+}
+
+.logo {
+  position: absolute;
+  top: 2px;
+  left: 5px;
+}
+
+.logo img {
+  height: 100px; /* Adjust the height as needed */
+  width: auto; /* Maintain aspect ratio */
+}
+
+/* Navigation Styles */
+nav {
+  background-color: #042f69;
+  color: #fff;
+  padding: 10px;
+  position: absolute;
+  top: 0;
+  right: 0;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 5px;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline-block;
+  margin-left: 10px;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  padding: 5px;
+}
+
+nav ul li a:hover {
+  background-color: #0e6a1e;
+  border-radius: 5px;
+}
+
+main {
+  padding: 20px;
+}
+
+section {
+  margin-bottom: 40px;
+}
+
+section h2 {
+  font-size: 30px;
+  margin-bottom: 10px;
+  font-family:Verdana, Geneva, Tahoma, sans-serif
+}
+
+section p {
+  margin-bottom: 10px;
+}
+
+.service {
+  margin-bottom: 20px;
+  border: 3px solid #179635;
+  background-color: #ffffff;
+  padding: 10px;
+  border-radius: 10px;
+  color: #333;
+}
+
+
+/* Image Gallery Styles */
+#images {
+background-color: #fff;
+padding: 20px;
+margin-bottom: 30px;
+border-radius: 10px;
+}
+
+#images h2 {
+font-size: 30px;
+color: #042f69;
+margin-top: 10px;
+margin-bottom: 30px;
+font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.image-gallery {
+display: grid;
+grid-template-columns: repeat(5, 1fr); /* Display 5 images per row */
+grid-gap: 20px;
+}
+
+.image-gallery img {
+width: 100%;
+height: 60vh; /* Set the height to 100vh for full-screen */
+object-fit:cover; /* Maintain aspect ratio and fill the container */
+border-radius: 5px;
+border: 6px solid #0e6a1e;
+}
+
+#prev-button,
+#next-button {
+background-color: #042f69;
+color: #fff;
+padding: 10px 20px;
+border: none;
+border-radius: 5px;
+font-size: 16px;
+cursor: pointer;
+margin-top: 25PX;
+}
+
+#prev-button:hover,
+#next-button:hover {
+background-color: #0e6a1e;
+}
+
+/* Footer Styles */
+footer {
+  background-color: #042f69;
+  color: #fff;
+  padding: 5px;
+  text-align: center;
+}
+
+/* Media Queries */
+@media (max-width: 768px) {
+  header h1 {
+    font-size: 24px;
+  }
+
+  header h2 {
+    font-size: 18px;
+  }
+}
