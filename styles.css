@@ -44,8 +44,8 @@ body {
   }
   
   .logo img {
-    height: 100px; /* Adjust the height as needed */
-    width: auto; /* Maintain aspect ratio */
+    height: auto; /* Adjust the height as needed */
+    width: 150px; /* Maintain aspect ratio */
   }
   
   /* Navigation Styles */
@@ -205,14 +205,12 @@ nav ul li a:hover {
       font-size: 18px;
     }
     .logo {
-      position: absolute;
-      top: 2px;
-      left: 5px;
+      position: static;
+      margin-bottom: 10px;
     }
     
     .logo img {
-      height: 100px; /* Adjust the height as needed */
-      width: auto; /* Maintain aspect ratio */
+      width: 100px; /* Maintain aspect ratio */
     }
 
     nav ul {
